@@ -1,0 +1,72 @@
+<!-- AULA 15,16,17,18,19 Projeto conversor de moedas parte I - <HTML>
+Quanto valia um real em 1994?
+Segundo a calculadora de inflação do Banco Central, 
+para ter o poder de compra daquele R$ 1
+ você precisaria hoje de R$ 6,70. 
+ Um aumento de 569,5% em 27 anos. 
+ Fazendo a conta ao contrário, 
+ aqueles R$ 1 de julho de 1994 equivaleriam a cerca de R$ 0,15.13 de abr. de 2022
+
+
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel=stylesheet href="styles.css" />
+    <title>CODECLUB Convert Money</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1> Codeclub convert money</h1>
+        </header>
+        <main>
+            <label>
+                CONVERTER <b>DE</b>
+                <select>
+                    <option> R$ Real Brasileiro</option>
+                </select>
+            </label>
+            <label>
+                CONVERTER <b>PARA </b>
+                <select id="currency-select">
+                    <option> US$ Dolar americano </option>
+                    <option>€ Euro </option>
+                </select>
+
+            </label>
+            <label>
+                Valor
+                <input id="input-real" placeholder="R$1.00">
+            </label>
+            <button id="convert-button" type="button">Converter</button>
+
+            <section>
+                <div class="currency-container">
+                    <img src="/brasil.png" alt="Band-Brasil">
+                    <p class="currency-name"> </p>Real</p>
+                    <p class="currency-value" id="real-value-text">R$ 1.00</p>
+                
+                    <img src="/flexa.png"  alt="Flexa">
+                
+                    <div class="currency-container">
+
+                        <img src="/eua.png" id="currency-img" alt=" Bandeira de conversao">
+                        <p class="currency-name" id="currency-name">Dolar americano</p>
+
+                        <p class="currency-value" id="currency-value-text"> US$ 1.00</p>
+                    </div>
+            </section>
+        </main>
+    </div>
+</body>
+<script src="./scripts.js"></script>
+
+</html>
