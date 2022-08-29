@@ -1,4 +1,4 @@
-# Projeto convesor de moedas de Real Brasil para Dolar e Real Brasil Euro 
+# Projeto convesor de moedas  
 DE REAL PARA EURO
 REVISADO IMAGENS 
 ALTERADO O NOME BY ROGERS 
