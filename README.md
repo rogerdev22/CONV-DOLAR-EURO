@@ -1,4 +1,4 @@
-# CONVERSOR DE MOEDAS DE REAL PARA DOLAR
+# Projeto convesor de moedas de Real Brasil para Dolar e Real Brasil Euro 
 DE REAL PARA EURO
 REVISADO IMAGENS 
 ALTERADO O NOME BY ROGERS 
